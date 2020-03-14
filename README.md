@@ -1,4 +1,4 @@
-#**Bacharelado em Ciência da Computação**
+# **Bacharelado em Ciência da Computação**
 
 
 ----------
@@ -10,10 +10,10 @@
 ----------
 
 
-##Sobre
+## Sobre
 Repositório do aluno **Cássio** feito para armazenar arquivos e códigos desenvolvidos durante o curso de [Ciência da Computação](http://www.cefet-rj.br/index.php/bacharelado-em-ciencia-da-computacao) do [CEFET-RJ](http://www.cefet-rj.br/).
 
 
 ----------
-###Agradecimento
+### Agradecimento
 Feito com o editor mark-down de código aberto [StackEdit](https://stackedit.io/).
