@@ -1,1 +1,1 @@
-Curso de aquivos do ilustríssimo Professor Mestre Renato
+Curso de aquivos ministrado pelo ilustríssimo Professor Mestre Renato
