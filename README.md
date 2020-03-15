@@ -1,9 +1,6 @@
 # **Bacharelado em Ciência da Computação**
 
 
-----------
-
-
 ![enter image description here](http://www.cefet-rj.br/attachments/article/431/Horizontal%20azul.jpg)
 
 
