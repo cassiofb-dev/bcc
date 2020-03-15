@@ -16,4 +16,4 @@ Repositório do aluno **Cássio** feito para armazenar arquivos e códigos desen
 
 ----------
 ### Agradecimento
-Feito com o editor mark-down de código aberto [StackEdit](https://stackedit.io/).
+Feito com o editor markdown de código aberto [StackEdit](https://stackedit.io/).
