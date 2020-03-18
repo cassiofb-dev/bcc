@@ -1,7 +1,7 @@
 # Busca Binária em Disco
 ## Sobre
 Trabalho da disciplina estrutura de arquivos (2020.1).
-A busca binária é feita no disco de forma que o arquivo não seja copiado para o hd.
+A busca binária é feita no disco de forma que o arquivo não seja copiado para a RAM.
 ## Objetivos
  1. Aprender a trabalha com arquivos no disco
  2. Preparar para gerenciamento de big data
