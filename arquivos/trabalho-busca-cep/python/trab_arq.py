@@ -4,7 +4,7 @@ import struct
 def to_bit(n):
     return n*300
 
-if len(sys.argv) != 2 and len(sys.argv[1]) != 8:
+if len(sys.argv) != 2 or len(sys.argv[1]) != 8:
 	print ("USO %s [CEP]" % sys.argv[0])
 	quit()
 
