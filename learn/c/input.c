@@ -11,7 +11,7 @@ int main(){
     printf("\nenter with a char: ");
     scanf("%c",&c);
     printf("your char is: %c\n",c);
-    fflush(stdin);
+    fflush(stdin);                          //clear stdin buffer
 
     printf("\nenter with a string: ");
     gets(str);
@@ -37,7 +37,6 @@ int main(){
     scanf("%lld",&ll);
     printf("your long long is: %lld\n",ll);
     fflush(stdin);
-
-    system("pause");
+    
     return 0;
 }
