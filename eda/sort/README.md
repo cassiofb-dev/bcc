@@ -2,8 +2,7 @@
 ## About
 Sort Bench is a simple and intuitive terminal program that shows the operations realized by sorting algorithms.
 ##  Version 0.03.20
-First realease! yay!
-Algorithms:
+First realease! yay!<br/>Included algorithms:
 
  1. Bubble sort
  2. Selection sort
