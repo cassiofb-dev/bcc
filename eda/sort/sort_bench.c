@@ -2,16 +2,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-unsigned long long swaps, comps, reads, writes;        //global variables for bench
+unsigned long long swaps, comps, reads, writes, score;        //global variables for bench
 
 //bench functions
 
 void reset_bench(){
-    swaps = comps = reads = writes = 0;
+    swaps = comps = reads = writes = score = 0;
+}
+
+void bench(int size){
+    score = (1000.0*size/(1000.0*size + 4*swaps + comps + reads + writes))*1000;
 }
 
 void print_bench(){
-    printf("\nswaps:[%llu] comps:[%llu] reads:[%llu] writes:[%llu]\n\n",swaps,comps,reads,writes);
+    printf("\tswaps:[%llu] comps:[%llu] reads:[%llu] writes:[%llu] score:[%llu]\n",swaps,comps,reads,writes,score);
 }
 
 void clear(){
@@ -32,9 +36,9 @@ void reset_array(int *arr, int size){
     }
 }
 
-void copy_array(int *arr, int *brr, int size){
+void copy_array(int *copy, int *origin, int size){
     for(int i = 0; i < size; i++){
-        arr[i] = brr[i];
+        copy[i] = origin[i];
     }
 }
 
@@ -80,6 +84,7 @@ void bubble_sort(int *arr, int size){
             }
         }
     }
+    bench(size);
     print_bench();
     reset_bench();
 }
@@ -96,6 +101,7 @@ void selection_sort(int *arr, int size){
         }
         swap(&arr[i],&arr[key]);
     }
+    bench(size);
     print_bench();
     reset_bench();
 }
@@ -110,6 +116,7 @@ void insertion_sort(int *arr, int size){
             j--;
         }
     }
+    bench(size);
     print_bench();
     reset_bench();
 }
@@ -154,7 +161,8 @@ void _merge_sort(int *arr, int ini, int fim){
 
 void merge_sort(int *arr, int size){
     reset_bench();
-    _merge_sort(arr,0,size);
+    _merge_sort(arr,0,size-1);
+    bench(size);
     print_bench();
     reset_bench();
 }
@@ -168,28 +176,36 @@ void _print_array(int *arr, int size, int flag){
 void run_bench(int *arr, int size, int flag){
     int aux[size];
 
-    printf("\nbubble sort...\n");
+    printf("\n\tstarting bubble sort...\n\n");
     copy_array(aux,arr,size);
+    printf("\tsorting... ");
     _print_array(aux,size,flag);
     bubble_sort(aux,size);
+    printf("\tsorted     ");
     _print_array(aux,size,flag);
 
-    printf("\nselection sort...\n");
+    printf("\n\n\tstarting selection sort...\n\n");
     copy_array(aux,arr,size);
+    printf("\tsorting... ");
     _print_array(aux,size,flag);
     selection_sort(aux,size);
+    printf("\tsorted     ");
     _print_array(aux,size,flag);
 
-    printf("\ninsertion sort...\n");
+    printf("\n\n\tstarting insertion sort...\n\n");
     copy_array(aux,arr,size);
+    printf("\tsorting... ");
     _print_array(aux,size,flag);
     insertion_sort(aux,size);
+    printf("\tsorted     ");
     _print_array(aux,size,flag);
 
-    printf("\nmerge sort...\n");
+    printf("\n\n\tstarting merge sort...\n\n");
     copy_array(aux,arr,size);
+    printf("\tsorting... ");
     _print_array(aux,size,flag);
     merge_sort(aux,size);
+    printf("\tsorted     ");
     _print_array(aux,size,flag);
 }
 
@@ -200,13 +216,13 @@ void menu(){
         int arr[size];
         reset_array(arr,size);
         clear();
-        printf("\t\t\tmenu\n\nset size:[s]\nreset array:[r]\nrun bench:[b]\nrun bench showing array:[p]\nlist array:[l]\nexit:[e]\ninput: ");
+        printf("\n\t\t\tmenu\n\n\tarray size:[%d]\n\tset size:[s]\n\treset array:[r]\n\trun bench:[b]\n\trun bench showing array:[p]\n\tlist array:[l]\n\texit:[e]\n\tinput: ",size);
         scanf("%c",&input);
         fflush(stdin);
         switch(input){
 
             case 's':
-                printf("array size: ");
+                printf("\tarray size: ");
                 scanf("%d",&size);
                 fflush(stdin);
                 break;
@@ -232,7 +248,7 @@ void menu(){
                 break;
 
             default:
-                printf("wrong input!\n");
+                printf("\twrong input!\n");
                 break;
         }
         pause();
