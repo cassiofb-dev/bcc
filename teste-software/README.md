@@ -5,7 +5,7 @@
 ## Sobre
 Repositório feito para armazenar arquivos e códigos desenvolvidos durante a disciplina [teste de software](https://diogomendonca.pro.br/Home/teste-de-software-2020-1) ministrada pelo professor [Diogo Mendonça](https://diogomendonca.pro.br/Home).
 ## [JEST](https://jestjs.io/)
-A verificação de erros será feita através da API [Jest](https://github.com/facebook/jest) desenvolvida pelo [Facebook](https://github.com/facebook).
+A verificação de erros será feita através da Framework [Jest](https://github.com/facebook/jest) desenvolvida pelo [Facebook](https://github.com/facebook).
 ### Motivos
 
  1. Jest é feita em e para JavaScript.
