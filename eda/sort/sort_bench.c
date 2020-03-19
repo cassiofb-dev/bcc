@@ -216,7 +216,7 @@ void menu(){
         int arr[size];
         reset_array(arr,size);
         clear();
-        printf("\n\t\t\tmenu\n\n\tarray size:[%d]\n\tset size:[s]\n\treset array:[r]\n\trun bench:[b]\n\trun bench showing array:[p]\n\tlist array:[l]\n\texit:[e]\n\tinput: ",size);
+        printf("\n\t\t\tsort bench v(0.1)\n\n\tarray size:[%d]\n\tset size:[s]\n\treset array:[r]\n\trun bench:[b]\n\trun bench showing array:[p]\n\tlist array:[l]\n\texit:[e]\n\tinput: ",size);
         scanf("%c",&input);
         fflush(stdin);
         switch(input){
