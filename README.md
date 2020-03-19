@@ -11,6 +11,6 @@ Repositório do aluno **Cássio** feito para armazenar arquivos e códigos desen
 ### English
 ---
 ## About
-This repository was made by the student **Cássio** to post his codes and files developed in [CEFET-RJ](http://www.cefet-rj.br/)'s [CC](http://www.cefet-rj.br/index.php/bacharelado-em-ciencia-da-computacao) course.
+This repository was made by the student **Cássio** to post his codes and files developed in [CEFET-RJ](http://www.cefet-rj.br/)'s [CS](http://www.cefet-rj.br/index.php/bacharelado-em-ciencia-da-computacao) course.
 
 >Made with [StackEdit](https://stackedit.io/).
