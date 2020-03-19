@@ -10,7 +10,6 @@ int main(){
     printf("%.2f * %.2f = %.2f\n",a,b,a*b);     //mult a * b
 
     printf("%.2f / %.2f = %.2f\n",b,a,b/a);     //div b / a
-
-    system("pause");
+    
     return 0;
 }
