@@ -14,7 +14,7 @@ count = 0
 
 with open("cep_ordenado.dat","rb") as f:
     ini = 0
-    fim = int(f.seek(0,2)/300)
+    fim = int(f.seek(0,2)/300) - 1
 
     while ini <= fim:
         count += 1
