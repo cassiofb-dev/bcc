@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sun and Earth</title>
+	</head>
+	<style>
+		body {
+			background-color: black;
+			overflow: hidden;
+		}
+		
+		main {
+			width: 40vw;
+			height: 40vw;
+			border: 0.3vw solid #AAA;
+			position:absolute;
+			top:0; bottom:0; left:0;right:0;
+			margin:auto;
+			border-radius:50%; 
+		}
+
+		.sun {
+			width: 15vw;
+			height: 15vw;
+			background-color: yellow;
+			border-radius:50%;
+			position:absolute;
+			top:0; bottom:0; left:0;right:0;
+			margin:auto;
+		}
+
+		.earth {
+			width: 5vw;
+			height: 5vw;
+			background-color: blue;
+			border-radius:50%;
+			position:absolute;
+			top:0; bottom:0; left:0;right:0;
+			margin:auto;
+			animation: orbit 6s linear infinite;
+		}
+
+	@keyframes orbit{
+		0%{
+			transform:
+				rotate(0deg)
+				translate(-20vw)
+				rotate(0deg);
+		
+		}
+		100%{
+			transform:
+				rotate(360deg)
+				translate(-20vw)
+				rotate(-360deg);
+		}
+	}
+	</style>
+	<body>
+		<main>
+			<div class="earth"></div>
+			<div class="sun"></div>
+		</main>
+	</body>
+</html>
