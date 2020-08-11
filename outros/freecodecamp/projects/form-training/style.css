@@ -1,0 +1,10 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-size: calc(0.75vmax + 2.25vmin);
+  margin: 0;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Training</title>
+    <meta
+      charset="UTF-8"
+      lang="en"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    >
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <header class="form-header">
+        <h1 id="form-title">Form Training</h1>
+        <p id="form-description">A pen made for freecodecamp project and form review, I would love your feedback!</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="5"
+            max="120"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>What you are?</p>
+          <select id="dropdown" name="opnion" class="form-control" required>
+            <option disabled selected value>Select current self</option>
+            <option value="human">Human</option>
+            <option value="jupiter">Dog from jupiter</option>
+            <option value="mars">Undoubtely from mars</option>
+            <option value="preferNo">Skinwalker</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Would you want pass 2020 again?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+    
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+        <div class="form-group">
+          <p>
+            What do you most hate in 2020?
+          </p>
+          <select id="most-hate" name="mostHate" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="bushfire">Australian Bushfire</option>
+            <option value="ww">Almost WW 3</option>
+            <option value="covid">COVID 19</option>
+            <option value="windows">End of Windows 7</option>
+            <option value="beirute">Beirute Explosion</option>
+            <option value="usachina">USA X CHINA</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>
+            What would you like to see deleted?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+    
+          <label
+            ><input
+              name="prefer"
+              value="bushfire"
+              type="checkbox"
+              class="input-checkbox"
+            />Australian Bushfire</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="ww"
+              type="checkbox"
+              class="input-checkbox"
+            />Almost WW 3</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="covid"
+              type="checkbox"
+              class="input-checkbox"
+            />COVID 19</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="windows"
+              type="checkbox"
+              class="input-checkbox"
+            />End of Windows 7</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="beirute"
+              type="checkbox"
+              class="input-checkbox"
+            />Beirute Explosion</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="usachina"
+              type="checkbox"
+              class="input-checkbox"
+            />USA X CHINA</label
+          >
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
