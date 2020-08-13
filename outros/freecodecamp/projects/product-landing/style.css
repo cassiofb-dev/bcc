@@ -1,7 +1,140 @@
 :root {
+  --color-background: #fff;
+  --color-detail: #eee;
+  --color-nav: #ddd;
+  --color-nav-hover: #222;
+  --color-text: #012;
+  --color-link: #543;
+  --color-text-hover: #def;
+}
+
+body {
   font-size: 10px;
-  --color-background: #eee;
-  --color-nav: #ccc;
-  --color-nav-hover: #ddd;
-  --color-text: #abc;
+  font-size: calc(0.75vmax + 2.25vmin);
+  padding: 0;
+  margin: 0;
+  color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+}
+
+section {
+  padding: 6vh 5vmin 5vmin 5vmin;
+}
+
+iframe {
+  width: 90vw;
+  height: 50vw;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+a, p, input {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+a:hover {
+  color: var(--color-link);
+}
+
+#page {
+  width: 100%;
+  background: var(--color-background);
+}
+
+#header {
+  width: 100%;
+  height: 10vh;
+  padding-left: 2vh;
+  background-color: var(--color-nav);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-img {
+  max-width: 30vw;
+  max-height: 9vh;
+  width: auto;
+  height: auto;
+  margin-top: 0.5vh;
+}
+
+.nav-bar {
+  width: 70vw;
+  display: flex;
+}
+
+.nav-link {
+  width: 17.5vw;
+  height: 10vh;
+  line-height: 10vh;
+}
+
+.nav-link:hover {
+  background-color: var(--color-nav-hover);
+  color: var(--color-text-hover);
+}
+
+@media only screen and (orientation: portrait) {
+  #header {
+    padding: 0;
+  }
+  #header-img {
+    width: 0;
+    height: 0;
+  }
+  .nav-bar {
+    width: 100%;
+  }
+  .nav-link {
+    width: 25%;
+  }
+}
+
+#title {
+  padding-top: 10vh;
+}
+
+.overview-img {
+  margin-top: 5vh;
+  max-width: 70vw;
+  max-height: 70vh;
+}
+
+#details {
+  background-color: var(--color-detail);
+}
+
+#details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
+  gap: 2vmin;
+}
+
+#footer {
+  background-color: var(--color-nav);
+  margin: 0;
+  padding: 0;
+  height: 20vh;
+}
+
+#footer > a, #footer > p {
+  margin: 0 1vw 0 1vw;
+  padding: 0;
+  height: 10vh;
+  line-height: 10vh;
 }

@@ -13,30 +13,34 @@
   <body>
     <div id="page">
       <header id="header">
-        <div class="logo">
-          <img id="header-img" src="./assets/logo.png" alt="logo">
-        </div>
+        <img id="header-img" src="./assets/simasturbo.png" alt="logo">
         <nav class="nav-bar">
-          <ul>
-            <li><a class="nav-link" href="#overview">Overview</a></li>
-            <li><a class="nav-link" href="#video">Video</a></li>
-            <li><a class="nav-link" href="#pricing">Pricing</a></li>
-            <li><a class="nav-link" href="#details">Details</a></li>
-          </ul>
+          <a class="nav-link" href="#overview">Overview</a>
+          <a class="nav-link" href="#video">Video</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+          <a class="nav-link" href="#details">Details</a>
         </nav>
       </header>
       <main>
+        <section id="title"><h1 id="product-name">Ryzen 5 3600</h1></section>
+        <hr>
         <section id="overview">
-          <div class="images">
-            <img id="overview-img" src="./assets/ryzen-5-3600-box-front.jpg" alt="box front">
-            <img id="overview-img" src="./assets/ryzen-5-3600-box-back.jpg" alt="box back">
-            <img id="overview-img" src="./assets/ryzen-5-3600-cooler.jpg" alt="cooler">
-          </div>
+          <h2>The budget monster</h2>
+          <p>Launched with the new Zen 3 architeture, the AMD Ryzen™ 5 3600 is by far the most perfomatic processor for desktop!</p>
+          <img class="overview-img" src="./assets/ryzen-5-3600-box-front.jpg" alt="box front">
         </section>
+        <hr>
         <section id="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/-HglyCjbnwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2>Why is Ryzen so good?</h2>
+          <h3>English</h3>
+          <iframe src="https://www.youtube.com/embed/1Zt1P41pjE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>Portuguese</h3>
+          <iframe src="https://www.youtube.com/embed/-HglyCjbnwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
+        <hr>
         <section id="pricing">
+          <h2>Buy Now!</h2>
+          <p>If you are interested we can build a customized setup!<br>You just have to pass your e-mail and our team will help you build your dream setup!</p>
           <form id="form" action="https://www.freecodecamp.com/email-submit">
             <input
               name="email"
@@ -45,21 +49,34 @@
               placeholder="Enter your email address"
               required
             />
-            <input id="submit" type="submit" value="Buy" class="btn" />
+            <input id="submit" type="submit" value="Buy"/>
           </form>
         </section>
         <section id="details">
-
+          <h2>Details</h2>
+          <div id="details-grid">
+            <p><b>CPU Cores:</b> 6</p>
+            <p><b>Threads:</b> 12</p>
+            <p><b>Base Clock:</b> 3.6GHz</p>
+            <p><b>Max Boost Clock:</b> 4.2GHz</p>
+            <p><b>Total L1 Cache:</b> 384KB</p>
+            <p><b>Total L2 Cache:</b> 3MB</p>
+            <p><b>Total L3 Cache:</b> 32MB</p>
+            <p><b>CMOS:</b> TSMC 7nm FinFET</p>
+            <p><b>Socket:</b> AM4</p>
+            <p><b>PCI Express Version:</b> PCIe 4.0 x16</p>
+            <p><b>Thermal Solution:</b> Wraith Stealth</p>
+            <p><b>TDP:</b> 65W</p>
+            <p><b>Max Temp:</b> 95c°</p>
+          </div>
         </section>
-        <footer id="footer">
-          <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <span>Copyright 2020, Simas Turbo</span>
-        </footer>
       </main>
+      <footer id="footer">
+        <p>Copyright 2020, Simas Turbo</p>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </footer>
     </div>
   </body>
 </html>
