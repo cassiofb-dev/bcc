@@ -1,0 +1,100 @@
+:root {
+  font-size: 10px;
+  font-size: calc(0.75vmax + 2.25vmin);
+  --color-background: #eee;
+  --color-text: #111;
+  --color-link: #169;
+  --color-visited: #641;
+}
+
+* {
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+ul {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-link);
+}
+
+a, p, code, h1, h2, h3 {
+  padding-left: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+
+li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  width: 30%;
+  height: 100vh;
+  background-color: #ddd;
+  border-right: 1px solid;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+#navbar li {
+  width: 100%;
+  margin-top: 1rem;
+  border-bottom: 1px solid;
+}
+
+#main {
+  margin-left: 30%;
+  padding: 1%;
+}
+
+section {
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  border-bottom: 1px solid;
+}
+
+#video , .video-container{
+  width: 60vw;
+  height: 35vw;
+  margin: auto;
+}
+
+#Tutorial_One li {
+  padding: 1rem;
+}
+
+code {
+  color: #6272a4;
+}
+
+@media only screen and (orientation: portrait) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+  #main {
+    margin-left: 0;
+  }
+}
