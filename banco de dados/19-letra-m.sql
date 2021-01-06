@@ -5,7 +5,7 @@ DELETE
     WHERE nome NOT IN (
       SELECT *
         FROM empregado
-          LEFT JOIN alocacao
+          INNER JOIN alocacao
             ON matricula = matric
     );
 
