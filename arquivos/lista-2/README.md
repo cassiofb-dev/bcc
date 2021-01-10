@@ -82,6 +82,12 @@ Resolução da segunda lista de organização e estrutura de arquivos.
 <p align="center">
   <img
     alt="solução"
+    src="https://i.imgur.com/3U25efe.png"
+  />
+</p>
+<p align="center">
+  <img
+    alt="solução"
     src="https://i.imgur.com/6owURMO.png"
   />
 </p>
