@@ -60,7 +60,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
 |  Páginas (2 bytes)  |     4     |      5     |
 |   Chaves (4 bytes)  |     10    |     13     |
 | Ponteiros (4 bytes) |     3     |      7     |
-|   Tamanho (bytes)   | $8+4\cdot 13=60$ | $10+4\cdot 20=90$ |
+|   Tamanho (bytes)   | 8+4x13=60 | 10+4x20=90 |
 
 ## Queatão 05
 |       X       |                                                   Arvore B                                                  |                        Arvore B+                       |
@@ -68,7 +68,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
 | Armazenamento |                               Informação associada armazanada em todos os nós                               | Informação associada armazenada somente nos nós folhas |
 |  Redundância  |                                          Sem redundância de chaves                                          |            Chaves redundantes podem existir            |
 |     Folha     |                                                 Não ligadas                                                 |       Folhas ligadas formando uma lista encadeada      |
-|  Escaneamento | Para visitar todos os nós precisa fazer um percurso de arvore com $O(n+n-1)=O(n)$ de tempo porém $O(h)$ memória |   A visita de todos é mais rápida e usa $O(1)$ memória   |
+|  Escaneamento | Para visitar todos os nós precisa fazer um percurso de arvore com O(n+n-1)=O(n) de tempo porém O(h) memória |   A visita de todos é mais rápida e usa O(1) memória   |
 
 ## Queatão 06
 <p align="center">
@@ -112,7 +112,7 @@ O método `read` retorna -1 no final do arquivo.
 ### d)
 > Fase de Divisão
 1. Divida o arquivo em k arquivos que caibam na RAM
-2. Ordene os k arquivos com um algoritmo de ordenação eficiente, $O(nlog(n))$, adequado
+2. Ordene os k arquivos com um algoritmo de ordenação eficiente, O(nlog(n)), adequado
 3. Armazene cada um dos k arquivos em disco
 
 > Fase de Conquista
