@@ -4,15 +4,15 @@
 - [Lista 2](#lista-2)
   - [Sumário](#sumário)
   - [Sobre](#sobre)
-  - [Queatão 01](#queatão-01)
-  - [Queatão 02](#queatão-02)
-  - [Queatão 03](#queatão-03)
-  - [Queatão 04](#queatão-04)
-  - [Queatão 05](#queatão-05)
-  - [Queatão 06](#queatão-06)
-  - [Queatão 07](#queatão-07)
-  - [Queatão 08](#queatão-08)
-  - [Queatão 09](#queatão-09)
+  - [Questão 01](#questão-01)
+  - [Questão 02](#questão-02)
+  - [Questão 03](#questão-03)
+  - [Questão 04](#questão-04)
+  - [Questão 05](#questão-05)
+  - [Questão 06](#questão-06)
+  - [Questão 07](#questão-07)
+  - [Questão 08](#questão-08)
+  - [Questão 09](#questão-09)
     - [a)](#a)
     - [b)](#b)
     - [c)](#c)
@@ -22,7 +22,7 @@
 ## Sobre
 Resolução da segunda lista de organização e estrutura de arquivos.
 
-## Queatão 01
+## Questão 01
 <p align="center">
   <img
     alt="solução"
@@ -30,7 +30,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
   />
 </p>
 
-## Queatão 02
+## Questão 02
 <p align="center">
   <img
     alt="solução"
@@ -38,7 +38,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
   />
 </p>
 
-## Queatão 03
+## Questão 03
 <p align="center">
   Arvore B - Final
   <img
@@ -54,7 +54,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
   />
 </p>
 
-## Queatão 04
+## Questão 04
 |          X          |  Arvore B |  Arvore B+ |
 |:-------------------:|:---------:|:----------:|
 |  Páginas (2 bytes)  |     4     |      5     |
@@ -62,7 +62,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
 | Ponteiros (4 bytes) |     3     |      7     |
 |   Tamanho (bytes)   | 8+4x13=60 | 10+4x20=90 |
 
-## Queatão 05
+## Questão 05
 |       X       |                                                   Arvore B                                                  |                        Arvore B+                       |
 |:-------------:|:-----------------------------------------------------------------------------------------------------------:|:------------------------------------------------------:|
 | Armazenamento |                               Informação associada armazanada em todos os nós                               | Informação associada armazenada somente nos nós folhas |
@@ -70,7 +70,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
 |     Folha     |                                                 Não ligadas                                                 |       Folhas ligadas formando uma lista encadeada      |
 |  Escaneamento | Para visitar todos os nós precisa fazer um percurso de arvore com O(n+n-1)=O(n) de tempo porém O(h) memória |   A visita de todos é mais rápida e usa O(1) memória   |
 
-## Queatão 06
+## Questão 06
 <p align="center">
   <img
     alt="solução"
@@ -78,7 +78,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
   />
 </p>
 
-## Queatão 07
+## Questão 07
 <p align="center">
   <img
     alt="solução"
@@ -92,7 +92,7 @@ Resolução da segunda lista de organização e estrutura de arquivos.
   />
 </p>
 
-## Queatão 08
+## Questão 08
 ```py
 fi = open(indexName, "r+b")
 vazio = 0
@@ -105,7 +105,7 @@ for i in range(hashSize):
   
 ```
 
-## Queatão 09
+## Questão 09
 ### a)
 20
 
