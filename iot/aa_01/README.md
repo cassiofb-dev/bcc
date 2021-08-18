@@ -15,7 +15,9 @@
   <a href="#license">Licença</a>
 </p>
 
-![cefet](https://i.imgur.com/K0E5iFC.jpg)
+<p align="center">
+  <img src="https://i.imgur.com/K0E5iFC.jpg">
+</p>
 
 ## Instruções
 
