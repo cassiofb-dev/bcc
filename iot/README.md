@@ -30,7 +30,7 @@ Tarefas da disciplina:
 - [x] 1ª Atividade Avaliativa
 - [ ] 2ª Atividade Avaliativa
 - [x] 3ª Atividade Avaliativa
-- [ ] 4ª Atividade Avaliativa
+- [x] 4ª Atividade Avaliativa
 
 ## Créditos
 

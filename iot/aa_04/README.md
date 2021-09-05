@@ -88,7 +88,7 @@ Código utilizado na compilação:
 // WIFI
 const char* myHostname = "escolha_um_nome"; // Nome do host na rede
 const char* SSID = "bangu-2"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "14101999-Bangu-2"; // Senha da rede WI-FI que deseja se conectar
+const char* PASSWORD = ""; // Senha da rede WI-FI que deseja se conectar
 
 
 
