@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadastro>
+  <cliente>
+    <nome>Fulano</nome>
+    <telefone>1234-5678</telefone>
+    <cidade>Niterói</cidade>
+    <estado>RJ</estado>
+    <credito>200.00</credito>
+  </cliente>
+  <cliente>
+    <nome>Beltrano</nome>
+    <telefone>8765-4321</telefone>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <credito>400.00</credito>
+  </cliente>
+  <cliente>
+    <nome>Cicrano</nome>
+    <telefone>1234-8765</telefone>
+    <cidade>Nova Friburgo</cidade>
+    <estado>RJ</estado>
+    <credito>300.00</credito>
+  </cliente>
+  <cliente>
+    <nome>José</nome>
+    <telefone>4321-5678</telefone>
+    <cidade>Campos do Jordão</cidade>
+    <estado>SP</estado>
+    <credito>350.00</credito>
+  </cliente>
+  <cliente>
+    <nome>Maria</nome>
+    <telefone>1243-5687</telefone>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <credito>400.00</credito>
+  </cliente>
+  <cliente>
+    <nome>Antônio</nome>
+    <telefone>6587-2143</telefone>
+    <cidade>Brasília</cidade>
+    <estado>DF</estado>
+    <credito>500.00</credito>
+  </cliente>
+</cadastro>
