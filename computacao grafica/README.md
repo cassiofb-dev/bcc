@@ -23,7 +23,7 @@ Esse repositório foi feito para entregar as tarefas da matéria de Computação
 Os trabalhos estão localizados na pasta 2D, nos links abaixo estão um preview online:
 
 - Sistema Sol, Terra e Lua
-- Espiral
+- [Espiral](https://codepen.io/cassiofb-dev/full/vYJogzM)
 - [Curva de Bezier](https://codepen.io/cassiofb-dev/full/yLzbOKK)
 
 ## Trabalhos 3D
