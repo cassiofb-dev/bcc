@@ -22,7 +22,7 @@ Esse repositório foi feito para entregar as tarefas da matéria de Computação
 
 Os trabalhos estão localizados na pasta 2D, nos links abaixo estão um preview online:
 
-- Sistema Sol, Terra e Lua
+- [Sistema Sol, Terra e Lua](https://codepen.io/cassiofb-dev/full/vYWYaao)
 - [Espiral](https://codepen.io/cassiofb-dev/full/vYJogzM)
 - [Curva de Bezier](https://codepen.io/cassiofb-dev/full/yLzbOKK)
 
@@ -35,7 +35,7 @@ Para rodar esses trabalhos é necessária a instalação do Python, PyOpenGl e P
 - Cone
 - Piramide Hexagonal
 - Prisma
-- Tronco de Piramide
+- [Tronco de Piramide](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/05-tronco-piramide.py)
 
 ## Créditos
 
