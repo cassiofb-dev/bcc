@@ -37,7 +37,7 @@ def draw(window):
     while handle_events():
         black_background()
         sdl2.mouse.SDL_GetMouseState(ctypes.byref(mouse_x), ctypes.byref(mouse_y))
-        mouse_rotation(mouse_x, mouse_y, draw_cylinder)
+        mouse_rotation(mouse_x, mouse_y, draw_prism)
         sdl2.SDL_GL_SwapWindow(window)
         sdl2.SDL_Delay(10)
 
@@ -61,10 +61,9 @@ def mouse_rotation(mouse_x, mouse_y, draw_function):
         GL.glPopMatrix()
 
 
-def draw_cylinder(radius = 100, size = 100, sides_number = 6):
-    if "circle_points" not in locals():
-        size_angle = 2 * math.pi / sides_number
-        circle_points = [(radius * math.cos(t * size_angle), radius * math.sin(t * size_angle)) for t in range(sides_number + 1)]
+def draw_prism(radius = 100, size = 100, sides_number = 6):
+    size_angle = 2 * math.pi / sides_number
+    circle_points = [(radius * math.cos(t * size_angle), radius * math.sin(t * size_angle)) for t in range(sides_number + 1)]
 
     GL.glBegin(GL.GL_QUAD_STRIP)
     for point_index in range(sides_number + 1):

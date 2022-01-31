@@ -62,9 +62,8 @@ def mouse_rotation(mouse_x, mouse_y, draw_function):
 
 
 def draw_cylinder(radius = 100, size = 100, sides_number = 6):
-    if "circle_points" not in locals():
-        size_angle = 2 * math.pi / sides_number
-        circle_points = [(radius * math.cos(t * size_angle), radius * math.sin(t * size_angle)) for t in range(sides_number + 1)]
+    size_angle = 2 * math.pi / sides_number
+    circle_points = [(radius * math.cos(t * size_angle), radius * math.sin(t * size_angle)) for t in range(sides_number + 1)]
 
     GL.glBegin(GL.GL_QUAD_STRIP)
     for point_index in range(sides_number + 1):
