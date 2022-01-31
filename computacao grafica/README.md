@@ -31,10 +31,10 @@ Os trabalhos estão localizados na pasta 2D, nos links abaixo estão um preview 
 Os trabalhos abaixo estão localizados na pasta 3D, os links abaixo redirecionam para o código fonte.
 Para rodar esses trabalhos é necessária a instalação do Python, PyOpenGl e PySDL2:
 
-- Cilindro
-- Cone
-- Piramide Hexagonal
-- Prisma
+- [Cilindro](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/01-cilindro.py)
+- [Cone](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/02-cone.py)
+- [Piramide Hexagonal](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/03-piramide-hexagonal.py)
+- [Prisma](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/04-prisma.py)
 - [Tronco de Piramide](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/05-tronco-piramide.py)
 
 ## Créditos
