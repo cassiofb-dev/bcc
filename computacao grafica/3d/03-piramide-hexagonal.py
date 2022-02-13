@@ -9,7 +9,7 @@ def run():
         print(sdl2.SDL_GetError())
         return -1
 
-    window = sdl2.SDL_CreateWindow(b"OpenGL Cylinder",
+    window = sdl2.SDL_CreateWindow(b"OpenGL Hexagonal Pyramide",
                                    sdl2.SDL_WINDOWPOS_UNDEFINED,
                                    sdl2.SDL_WINDOWPOS_UNDEFINED, 800, 600,
                                    sdl2.SDL_WINDOW_OPENGL)
