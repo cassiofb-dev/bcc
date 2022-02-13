@@ -36,6 +36,7 @@ Para rodar esses trabalhos é necessária a instalação do Python, PyOpenGl e P
 - [Piramide Hexagonal](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/03-piramide-hexagonal.py)
 - [Prisma](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/04-prisma.py)
 - [Tronco de Piramide](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/05-tronco-piramide.py)
+- [Sólidos de Revolução](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/06-solidos-revolucao.py)
 
 ## Créditos
 
