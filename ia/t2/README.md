@@ -35,4 +35,4 @@
 
 ## Link do Vídeo
 
-Vídeo em processamento...
+[https://youtu.be/VCURW-9JbH4](https://youtu.be/VCURW-9JbH4)
