@@ -31,12 +31,16 @@ Os trabalhos estão localizados na pasta 2D, nos links abaixo estão um preview 
 Os trabalhos abaixo estão localizados na pasta 3D, os links abaixo redirecionam para o código fonte.
 Para rodar esses trabalhos é necessária a instalação do Python, PyOpenGl e PySDL2:
 
-- [Cilindro](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/01-cilindro.py)
-- [Cone](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/02-cone.py)
-- [Piramide Hexagonal](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/03-piramide-hexagonal.py)
-- [Prisma](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/04-prisma.py)
-- [Tronco de Piramide](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/05-tronco-piramide.py)
-- [Sólidos de Revolução](https://github.com/cassiofb-dev/bcc/blob/master/computacao%20grafica/3d/06-solidos-revolucao.py)
+- [Cilindro](https://github.com/cassiofb-dev/bcc/blob/master/computacao-grafica/3d/01-cilindro.py)
+- [Cone](https://github.com/cassiofb-dev/bcc/blob/master/computacao-grafica/3d/02-cone.py)
+- [Piramide Hexagonal](https://github.com/cassiofb-dev/bcc/blob/master/computacao-grafica/3d/03-piramide-hexagonal.py)
+- [Prisma](https://github.com/cassiofb-dev/bcc/blob/master/computacao-grafica/3d/04-prisma.py)
+- [Tronco de Piramide](https://github.com/cassiofb-dev/bcc/blob/master/computacao-grafica/3d/05-tronco-piramide.py)
+- [Sólidos de Revolução](https://github.com/cassiofb-dev/bcc/blob/master/computacao-grafica/3d/06-solidos-revolucao.py)
+- [Dado](https://codepen.io/cassiofb-dev/full/eYypQoj)
+- [Terra](https://codepen.io/cassiofb-dev/full/YzYygbz)
+- [Prisma e Pirâmide Iluminados](https://codepen.io/cassiofb-dev/full/zYpvVbm)
+- [Coelho de Stanford](https://codepen.io/cassiofb-dev/full/XWVmvjO)
 
 ## Créditos
 
